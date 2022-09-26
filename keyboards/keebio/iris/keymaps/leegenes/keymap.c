@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT(
     KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_PLUS,    // LT R1
-    KC_EQL,     KC_MPRV,    KC_MPLY,    KC_MNXT,    KC_VOLD,    KC_VOLU,    // RT R1
+    KC_EQL,     KC_NO,      KC_NO,      KC_NO,      KC_VOLD,    KC_VOLU,    // RT R1
     KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_MINS,    // LT R2
     KC_UNDS,    KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_MUTE,    // RT R2
     KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_LBRC,    // LT R3
