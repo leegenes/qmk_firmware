@@ -56,19 +56,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_NO,                                                      // LT TH Top
     KC_NO,                                                      // RT TH Top
     KC_NO,      KC_NO,      KC_NO,  KC_NO,      KC_NO,  KC_NO,  // LT R4
-    KC_NO,      KC_NO,      MO(2),                              // LT TH Bottom
+    KC_NO,      KC_NO,      MO(0),                              // LT TH Bottom
     KC_NO,      KC_NO,      KC_NO                               // RT TH Bottom
     ),
 
   [_ADJUST] = LAYOUT(
     KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO, KC_NO,   // LT R1
     KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO, KC_NO,   // RT R1
-    KC_NO,      BL_ON,      BL_OFF,     KC_NO,      KC_NO, KC_NO,   // LT R2
+    KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO, KC_NO,   // LT R2
     KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO, KC_NO,   // RT R2
-    DB_TOGG,    BL_TOGG,    KC_NO,      KC_NO,      KC_NO, KC_NO,   // LT R3
+    DB_TOGG,    KC_NO,      KC_NO,      KC_NO,      KC_NO, KC_NO,   // LT R3
     KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO, KC_NO,   // RT R3
     QK_BOOT,    RGB_TOG,    RGB_RMOD,   RGB_MOD,    KC_NO, KC_NO,   // LT R4
-    MO(3),                                                          // LT TH Top
+    MO(0),                                                          // LT TH Top
     KC_NO,                                                          // RT TH Top
     KC_NO,      KC_NO,      KC_NO,      KC_NO,      KC_NO, KC_NO,   // LT R4
     KC_NO,      KC_NO,      KC_NO,                                  // LT TH Bottom
